@@ -1,0 +1,11 @@
+body {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Gravity', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    height: 400px;
+    filter: blur(3px);
+}
