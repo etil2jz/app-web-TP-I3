@@ -9,6 +9,7 @@
 ✅ Bouton vers les disponibilités des salles
 ✅ Formulaire pour réserver une place
 ✅ Résumé de la commande ticket
+❌ Match les champs formulaire avec les VARCHAR capacité max
 ❌ Animation titres articles
 ✅ Police custom
 ✅ Nombre de visiteurs random

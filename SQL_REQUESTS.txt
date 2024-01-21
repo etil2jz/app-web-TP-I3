@@ -1,4 +1,4 @@
-CREATE DATABASE thunderdome24 ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE DATABASE thunderdome24 DEFAULT CHARSET=utf8;
 
 USE thunderdome24;
 
