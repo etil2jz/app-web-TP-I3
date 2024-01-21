@@ -6,7 +6,7 @@
 ✅ Programmation horaires
 ✅ Footer contact
 ✅ 3 articles sur le festival
-❌ Bouton vers les disponibilités des salles
+✅ Bouton vers les disponibilités des salles
 ❌ Formulaire pour réserver une place
 ❌ Résumé de la commande ticket
 ✅ Animation

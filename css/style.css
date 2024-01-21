@@ -120,3 +120,30 @@ footer {
     font-weight: bold;
     font-style: italic;
 }
+
+#dispo {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color:#000000;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #ffffff;
+}
+
