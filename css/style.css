@@ -34,8 +34,8 @@ nav a:hover {
 }
 
 #infobox {
-    float: right;
-    margin-right: 200px;
+    margin-left: 128px;
+    position: absolute;
 }
 
 #planning {
@@ -78,8 +78,45 @@ nav a:hover {
 
 footer {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#article1 {
+    text-align: center;
+}
+
+#article2 {
+    text-align: center;
+}
+
+#article3 {
+    text-align: center;
+}
+
+#gmaps {
+    text-decoration: none;
+    color: #1f96ac;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#suite_article1 {
+    text-decoration: none;
+    color: #1f96ac;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#suite_article2 {
+    text-decoration: none;
+    color: #1f96ac;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#suite_article3 {
+    text-decoration: none;
+    color: #1f96ac;
+    font-weight: bold;
+    font-style: italic;
 }

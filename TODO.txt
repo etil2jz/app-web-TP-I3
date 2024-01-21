@@ -1,0 +1,14 @@
+✅ ❌
+
+✅ Title onglet
+✅ Bannière au top
+✅ Barre de navigation
+✅ Programmation horaires
+✅ Footer contact
+✅ 3 articles sur le festival
+❌ Bouton vers les disponibilités des salles
+❌ Formulaire pour réserver une place
+❌ Résumé de la commande ticket
+✅ Animation
+✅ Police custom
+✅ Nombre de visiteurs random
