@@ -55,9 +55,13 @@ document.addEventListener('DOMContentLoaded', function () {
     commentaireInput.addEventListener('input', check_inputs, afficher_resume);
     document.querySelector("select[name='type_passe']").addEventListener('change', check_inputs, afficher_resume);
 
+    // J'ai passé une heure de ma vie à chercher pourquoi le formulaire ne s'envoyait pas,
+    // pour au final (re)découvrir ce bout de code juste en dessous. Plus jamais.
+    /*
     const form = document.querySelector("#form_reservation");
     form.addEventListener('submit', function (event) {
         event.preventDefault();
 
     });
+    */
 });

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Thunderdome 2024 – Réservation enregistrée</title>
+        <link rel="shortcut icon" type="image/webp" href="./img/favicon.webp">
+        <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/gravity">
+        <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/captoon-es">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <img id="banner" src="./img/banner.webp" alt="Thunderdome 2024">
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./disponibilite.php">Disponibilite</a>
+            <a href="./reservation.html">Reserve ta place</a>
+            <a href="#bas_de_page">Contact</a>
+        </nav>
+        <br><br>
+        <div id="infobox">
+            <a id="visitors">Nombre de visiteurs:  </a>
+            <ul id="planning">
+                <li>Vendredi: 22h - 07h</li>
+                <li>Samedi: 14h - 20h</li>
+                <li>Dimanche: 14h - 20h</li>
+            </ul>
+        </div>
+        <div id="remerciement">
+            <h1 id="cimer">Merci pour votre réservation ❤️</h1>
+            <h5>Vous allez être redirigé d'ici 5 secondes…</h5>
+        </div>
+        <br><br>
+        <footer>
+            <hr>
+            <h2 id="bas_de_page">Contact</h2>
+            <div>
+                <a id="mail" href="mailto:info@thunderdome.com">info@thunderdome.com</a><br>
+                <a id="phone" href="tel:+31226032014">+31226032014</a><br>
+                <a href="https://www.instagram.com/thunderdome/"><img id="instagram" src="./img/instagram.webp" alt="Instagram"></a>
+                <a href="https://www.facebook.com/ThunderdomeIsYou/"><img id="facebook" src="./img/facebook.webp" alt="Facebook"></a>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            const redirect = () => {
+                window.location.href = "./index.html"
+            }
+
+            setTimeout(redirect, 5000);
+        </script>
+        <script type="text/javascript" src="./js/visitors.js"></script>
+    </body>
+</html>

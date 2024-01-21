@@ -37,7 +37,7 @@
                     <th>10000</th>
                     <th>
                         <?php
-                        include "connexion.php";
+                        include "./connexion.php";
                         $requete = "SELECT capacite FROM planning WHERE jour = 'vendredi'";
                         $resultat = $connexion->query($requete);
 
@@ -57,7 +57,7 @@
                     <th>18000</th>
                     <th>
                         <?php
-                        include "connexion.php";
+                        include "./connexion.php";
                         
                         $requete = "SELECT capacite FROM planning WHERE jour = 'samedi'";
                         $resultat = $connexion->query($requete);
@@ -78,7 +78,7 @@
                     <th>25000</th>
                     <th>
                         <?php
-                        include "connexion.php";
+                        include "./connexion.php";
                         $requete = "SELECT capacite FROM planning WHERE jour = 'dimanche'";
                         $resultat = $connexion->query($requete);
 
