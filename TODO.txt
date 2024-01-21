@@ -7,8 +7,8 @@
 ✅ Footer contact
 ✅ 3 articles sur le festival
 ✅ Bouton vers les disponibilités des salles
-❌ Formulaire pour réserver une place
-❌ Résumé de la commande ticket
-✅ Animation
+✅ Formulaire pour réserver une place
+✅ Résumé de la commande ticket
+❌ Animation titres articles
 ✅ Police custom
 ✅ Nombre de visiteurs random

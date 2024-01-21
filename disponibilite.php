@@ -13,7 +13,7 @@
         <nav>
             <a href="./index.html">Accueil</a>
             <a href="./disponibilite.php">Disponibilite</a>
-            <a href="">Reserve ta place</a>
+            <a href="./reservation.html">Reserve ta place</a>
             <a href="#bas_de_page">Contact</a>
         </nav>
         <br><br>
@@ -58,6 +58,7 @@
                     <th>
                         <?php
                         include "connexion.php";
+                        
                         $requete = "SELECT capacite FROM planning WHERE jour = 'samedi'";
                         $resultat = $connexion->query($requete);
 

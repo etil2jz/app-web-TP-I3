@@ -147,3 +147,28 @@ td {
     background-color: #ffffff;
 }
 
+#form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#validerBtn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#validerBtn:hover {
+    background-color: #45a049;
+}
+
+#resume_commande {
+    margin: 0 auto;
+    text-align: center;
+}
