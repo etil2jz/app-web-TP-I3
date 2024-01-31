@@ -14,6 +14,7 @@
             <a href="./index.html">Accueil</a>
             <a href="./disponibilite.php">Disponibilite</a>
             <a href="./reservation.html">Reserve ta place</a>
+            <a href="./auth.html">Login</a>
             <a href="#bas_de_page">Contact</a>
         </nav>
         <br><br>

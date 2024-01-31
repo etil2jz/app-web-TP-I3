@@ -177,3 +177,25 @@ td {
     margin: 0 auto;
     text-align: center;
 }
+
+#login_buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logbut, #regbut {
+    font-family: 'Gravity', sans-serif;
+    font-size: 32px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}

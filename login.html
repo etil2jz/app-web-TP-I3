@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Thunderdome 2024 – Réservation</title>
+        <title>Thunderdome 2024 – S'identifier</title>
         <link rel="shortcut icon" type="image/webp" href="./img/favicon.webp">
         <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/gravity">
         <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/captoon-es">
@@ -27,35 +27,17 @@
             </ul>
         </div>
         <div id="form">
-            <h2>Réservation de places</h2>
+            <h2>Identification utilisateur</h2>
             <br>
-            <form id="form_reservation" action="./faire_reserv.php" method="post">
-                <label for="nom">* Nom :</label>
-                <input type="text" id="nom" name="nom" required minlength="1" maxlength="64"><br>
-                <label for="prenom">* Prénom :</label>
-                <input type="text" id="prenom" name="prenom" required minlength="1" maxlength="64"><br>
-                <label for="quantite">* Quantité de places :</label>
-                <input type="number" id="quantite" name="quantite" min="1" max="4" value="1" required><br>
-                <label>* Type de passe :</label>
-                <select name="type_passe">
-                    <option value="normal">Normal</option>
-                    <option value="vip">VIP</option>
-                </select><br>
-                <label>* Jour à réserver :</label>
-                <input type="checkbox" id="vendredi" name="jours[]" value="vendredi">
-                <label for="vendredi">Vendredi</label>
-                <input type="checkbox" id="samedi" name="jours[]" value="samedi">
-                <label for="samedi">Samedi</label>
-                <input type="checkbox" id="dimanche" name="jours[]" value="dimanche">
-                <label for="dimanche">Dimanche</label><br><br>
-                <label for="commentaire">Commentaire :</label><br>
-                <textarea id="commentaire" name="commentaire" rows="4" maxlength="10000"></textarea><br><br>
-                <button type="submit" id="validerBtn" style="display:none;">Valider</button>
+            <form id="form_login" action="./faire_login.php" method="post">
+                <label for="login">* Identifiant :</label>
+                <input type="text" id="login" name="login" required minlength="1" maxlength="48"><br>
+                <label for="mdp">* Mot de passe :</label>
+                <input type="password" id="mdp" name="mdp" required minlength="1" maxlength="48"><br><br>
+                <button type="submit" id="validerBtn" style="display:none;">S'identifier</button>
             </form>
         </div>
-        <br>
-        <div id="resume_commande"></div>
-        <br>
+        <br><br>
         <footer>
             <hr>
             <h2 id="bas_de_page">Contact</h2>
@@ -67,6 +49,6 @@
             </div>
         </footer>
         <script type="text/javascript" src="./js/visitors.js"></script>
-        <script type="text/javascript" src="./js/btn_commande.js"></script>
+        <script type="text/javascript" src="./js/btn_login.js"></script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-    $serveur = "127.0.0.1:3307";
+    $serveur = "127.0.0.1:3306";
     $utilisateur = "site_backend";
     $mot_de_passe = "MonSuperMdp";
     $base_de_donnees = "thunderdome24";

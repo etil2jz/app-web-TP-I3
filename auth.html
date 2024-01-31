@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Thunderdome 2024 – Réservation enregistrée</title>
+        <title>Thunderdome 2024 – Login</title>
         <link rel="shortcut icon" type="image/webp" href="./img/favicon.webp">
         <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/gravity">
         <link rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/captoon-es">
@@ -26,11 +26,12 @@
                 <li>Dimanche: 14h - 20h</li>
             </ul>
         </div>
-        <div id="remerciement">
-            <h1 id="cimer">Merci pour votre réservation ❤️</h1>
-            <h5>Vous allez être redirigé d'ici 5 secondes…</h5>
-        </div>
         <br><br>
+        <div id="login_buttons">
+            <button id="logbut" type="button" onclick="window.location.href='./login.html'">S'identifier</button>
+            <button id="regbut" type="button" onclick="window.location.href='./register.html'">S'inscrire</button>
+        </div>
+        <br><br><br><br>
         <footer>
             <hr>
             <h2 id="bas_de_page">Contact</h2>
@@ -41,13 +42,6 @@
                 <a href="https://www.facebook.com/ThunderdomeIsYou/"><img id="facebook" src="./img/facebook.webp" alt="Facebook"></a>
             </div>
         </footer>
-        <script type="text/javascript">
-            const redirect = () => {
-                window.location.href = "./index.html"
-            }
-
-            setTimeout(redirect, 5000);
-        </script>
         <script type="text/javascript" src="./js/visitors.js"></script>
     </body>
 </html>
