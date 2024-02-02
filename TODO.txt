@@ -9,11 +9,11 @@
 ✅ Bouton vers les disponibilités des salles
 ✅ Formulaire pour réserver une place
 ✅ Résumé de la commande ticket
-❌ Match les champs formulaire avec les VARCHAR capacité max
+✅ Match les champs formulaire avec les VARCHAR capacité max
 ❌ Animation titres articles
 ✅ Police custom
 ✅ Nombre de visiteurs random
 ❌ Formulaire faisant le lien avec reservation_utilisateur
-❌ Page de login / register
+✅ Page de login / register
 ❌ Page listant les tickets achetés d'un utilisateur connecté
-❌ Chiffrer mdp en MD5
+✅ Chiffrer mdp en MD5
